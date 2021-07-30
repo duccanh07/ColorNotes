@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Danh Mục Chính">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_event_note_24"
+                android:title="Ghi Chú" />
+            <item
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_post_add_24"
+                android:title="Thêm Ghi Chú" />
+            <item
+                android:id="@+id/dashboard"
+                android:icon="@drawable/ic_baseline_pie_chart_24"
+                android:title="Thống kê" />
+        </menu>
+    </item>
+    <item android:title="Cá nhân">
+        <menu>
+            <item
+                android:id="@+id/viewProfile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Thông Tin Tài Khoản" />
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Chia Sẻ" />
+        </menu>
+    </item>
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/loginmain"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="Đăng Nhập" />
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="Đăng Ký" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Đăng Xuất" />
+        </menu>
+    </item>
+
+</menu>

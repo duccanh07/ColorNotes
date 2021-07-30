@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/allNotes"
+        android:icon="@drawable/ic_baseline_event_note__white_24"
+        android:title="Tất cả ghi chú" />
+    <item
+        android:id="@+id/unCompleted"
+        android:icon="@drawable/ic_baseline_more_time_24"
+        android:title="Chưa hoàn thành" />
+    <item
+        android:id="@+id/completed"
+        android:icon="@drawable/ic_baseline_task_alt_24"
+        android:title="Đã hoàn thành" />
+    <item
+        android:id="@+id/priority"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        android:title="Quan trọng" />
+    <item
+        android:id="@+id/expired"
+        android:icon="@drawable/ic_baseline_timer_off_24"
+        android:title="Hết hạn" />
+</menu>
